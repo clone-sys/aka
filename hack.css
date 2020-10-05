@@ -1,0 +1,76 @@
+.box {
+  border: 1px solid rgb(41, 37, 37);
+  min-height: 1rem;
+  padding: 1rem;
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow: center;
+  height: 12vh;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-left: 15%;
+  border: 1px solid blue;
+}
+
+.formGroup {
+  display: absolute;
+  text-align: right;
+  height: 24vh;
+}
+
+form {
+  align-content: space-around;
+  justify-content: right;
+  flex-direction: column;
+  margin-left: 84%;
+  height: 24vh;
+  margin-top: 0%;
+  margin-right: 3%;
+}
+
+h2 {
+  font-size: 15px;
+}
+p {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 45px;
+}
+#first {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+body {
+  background-color: #f8f9fb;
+  margin-right: 10%;
+  border:1px solid black;
+
+}
+
+nav ul{
+   border-bottom: 1px solid black;
+   margin: 3rem;
+   padding: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+ }
+ 
+ li a{
+   margin:30px;
+/*label {
+  border: 1px solid green;
+  align-content: right;
+  display: relative;
+  justify-items: right;
+  flex-direction: column;
+  vertical-align: auto;
+}
+*/

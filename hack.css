@@ -15,7 +15,9 @@
   margin-left: 15%;
   border: 1px solid blue;
 }
-
+nav ul a {
+  margin-right: 18px;
+}
 .formGroup {
   display: absolute;
   text-align: right;
@@ -50,27 +52,19 @@ p {
 body {
   background-color: #f8f9fb;
   margin-right: 10%;
-  border:1px solid black;
-
+  border: 1px solid black;
+}
+.flex-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-item-nav {
+  margin-right: 25px;
 }
 
-nav ul{
-   border-bottom: 1px solid black;
-   margin: 3rem;
-   padding: 3rem;
-   display: flex;
-   align-items: center;
-   justify-content: center; 
- }
- 
- li a{
-   margin:30px;
-/*label {
-  border: 1px solid green;
-  align-content: right;
-  display: relative;
-  justify-items: right;
-  flex-direction: column;
-  vertical-align: auto;
+input {
+  border-radius: 25px;
+  outline: none;
+
+  width: 200px;
 }
-*/
